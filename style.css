@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "verdana";
+    src: url(VERDANAB.TTF);
+}
+
+/* body {
+    width: 960px;
+    margin: 0 auto;} */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.header{
+    width: 100%;
+    height: 100px;
+    background: #0066d2;
+    display: flex;
+    justify-content: space-around;
+
+}
+.name>h1{
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    font-family: verdana;
+    padding-top: 5px;
+    
+}
+
+.email>p , .passward>p , .btn>button{
+    color: white;
+    font-family: sans-serif;
+}
+.btn>button{
+    background-color: #0f4074;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 1px 1px rgb(48, 47, 47);
+    margin-top: 20px;
+    width: 60px;
+}
+.userinfo{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+}
+.email>input , .passward>input{
+    height: 23px;
+}
+.main{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.logo .cap>p{
+    font-family: sans-serif;
+    color: #09488c;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.logo {
+    width: 30%;
+    margin-top: 20px;
+}
+.img>img{
+    width: 300px;
+    
+   
+}
+.logo>.img{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    height: 400px;
+    
+}
+.logo>.cap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.accountsetup{
+    width: 35%;
+}
+.accountsetup>h2{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 2em;
+    /* padding: 20px; */
+    object-fit: cover;
+    padding-top: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+.inputs>input{
+   width: 150px;
+   height: 25px;
+   border-color: darkgrey;
+   border-radius: 3px;
+   margin-top: 10px;
+   
+}
+
+
+.input>div>input{
+    width: 310px;
+    margin-top: 10px;
+    height: 25px;
+   border-color: darkgrey;
+   border-radius: 3px;
+}
+.accountsetup>h3{
+    text-transform: capitalize;
+    color: grey;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.birth>input{
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid;
+    background-color: white;
+    border-radius: 3px;
+}
+.lorem{
+    font-family: sans-serif;
+    padding-top: 20px;
+    font-size: 0.8em;  
+}
+/* #gender{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+} */
+.lorem>p{
+    margin-top: 0px;
+}
+.accountsetup>*{
+    margin-top: 15px;
+    margin-left: 40px;
+    font-family: sans-serif;
+
+}
+.button>button{
+    width: 40%;
+    height: 30px;
+    background-color: transparent  ;
+    color: white;
+    border-radius: 5px;
+    background-color: green;
+    box-shadow: inset 1px 1px 4px 2px rgb(2, 84, 2);
+    font-size: 20px;
+    border: none;
+    
+}
+@media screen and (max-width:480px) {
+body{
+    
+        width: 960px;
+        margin: 0 auto;}
+
+}
+@media screen  and (max-width:768px) and (min-width:481px) {
+   .header{
+    flex-direction: column;
+    height: 200px;
+    
+   }
+   .userinfo{
+    width: 60%;
+    margin-left: 150px;
+   }
+   
+   /* .logo>.cap{
+    font-size: smaller;
+   }
+   .logo{
+    margin-left: 80px;
+   } */
+   .main{
+    display: block;
+   }
+   .logo{
+   width: 100%;
+   }
+   
+}
